@@ -1,0 +1,85 @@
+{
+  "services": {
+    "useFahrenheit": false,
+    "weatherLocation": "Beijing"
+  },
+  "general": {
+    "idle": {
+      "lockBeforeSleep": true,
+      "inhibitWhenAudio": true,
+      "timeouts": [
+        {
+          "timeout": 600,
+          "idleAction": "lock"
+        }
+      ]
+    }
+  },
+  "launcher": {
+    "hiddenApps": [
+      "avahi-discover",
+      "java-java-openjdk",
+      "electron38",
+      "uuctl",
+      "bssh",
+      "cmake-gui",
+      "bvnc",
+      "blueberry",
+      "fcitx5-wayland-launcher",
+      "kcm_fcitx5.desktop",
+      "org.fcitx.fcitx5-config-qt",
+      "org.fcitx.fcitx5-migrator",
+      "org.fcitx.fcitx5-qt5-gui-wrapper",
+      "org.fcitx.fcitx5-qt6-gui-wrapper",
+      "org.fcitx.Fcitx5",
+      "gkbd-keyboard-display",
+      "cups",
+      "gcr-viewer",
+      "java-java-openjdk",
+      "jconsole-java-openjdk",
+      "jshell-java-openjdk",
+      "kbd-layout-viewer5",
+      "system-config-printer",
+      "signal-desktop",
+      "spotify",
+      "org.gnupg.pinentry-qt",
+      "org.gnupg.pinentry-qt5",
+      "qv4l2",
+      "qvidcap",
+      "xgps",
+      "xgpsspeed",
+      "com.github.xournalpp.xournalpp",
+      "xfce4-about",
+      "org.kde.ark",
+      "electron37",
+      "foot-server",
+      "footclient",
+      "vim",
+      "qt5ct",
+      "qt6ct",
+      "org.gnupg.pinentry-qt5",
+      "org.gnupg.pinentry-qt",
+      "org.fcitx.fcitx5-qt6-gui-wrapper",
+      "org.fcitx.fcitx5-qt5-gui-wrapper",
+      "org.fcitx.fcitx5-config-qt",
+      "qdbusviewer",
+      "org.quickshell",
+      "assistant",
+      "linguist",
+      "designer"
+    ]
+  },
+  "bar": {
+    "status": {
+      "showNetwork": false,
+      "showLockStatus": false,
+      "showAudio": true,
+      "showMicrophone": false
+    }
+  },
+  "utilities": {
+    "toasts": {
+      "kbLayoutChanged": false
+    }
+  }
+}
