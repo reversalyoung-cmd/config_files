@@ -6,6 +6,7 @@
 # 配置文件路径: ~/.config/BM/config.toml
 # 修改配置后重启程序生效
 
+
 [app]
 # Maximum number of history entries - limits the maximum number of playback history records.
 #
